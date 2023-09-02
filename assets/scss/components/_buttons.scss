@@ -1,11 +1,5 @@
-@use "../abstracts/variables/index" AS *;
+@use "../abstracts/variables/mixins";
 
 .btn{
-    color: white;
-    margin-top: 20px;
-    background-color: $button-color;
-    padding: 10px 20px;
-    border-radius: 5px;
-    border: none;
-    cursor: pointer;
+    @include mixins.btn;
 }
