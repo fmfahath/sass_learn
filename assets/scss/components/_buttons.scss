@@ -1,21 +1,31 @@
+@use "../abstracts/variables/colors" as *;
 @use "../abstracts/variables/mixins";
 
 .btn{
-    @include mixins.btn;
+   
 
     &-default{
-        
+        @include mixins.btn(#000);
     }
 
+    &-pink{
+        @include mixins.btn(#fff);
+        background-color: $button-color;
+    }
+
+
     &-primary{
+        @include mixins.btn(#fff);
         background-color: dodgerblue;
     }
 
     &-success{
+        @include mixins.btn(#fff);
         background-color: lightseagreen;
     }
 
     &-dark{
+        @include mixins.btn(#fff);
         background-color: black;
     }
 }
