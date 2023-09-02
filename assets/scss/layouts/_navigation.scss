@@ -15,7 +15,7 @@
     &__brand h2 a{
         color: $button-color;
         font-size: 40px;
-        font-family: $font-raleway;
+        font-family: fonts.$font-raleway;
         letter-spacing: 3px;
         font-weight: 500;
     }
@@ -32,7 +32,7 @@
         text-decoration: none;
         margin-right: 30px;
         font-size: 20px;
-        font-family: $font-roboto;
+        font-family: fonts.$font-roboto;
         padding: 4px 8px;
 
         
