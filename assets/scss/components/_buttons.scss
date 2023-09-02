@@ -2,4 +2,20 @@
 
 .btn{
     @include mixins.btn;
+
+    &-default{
+        
+    }
+
+    &-primary{
+        background-color: dodgerblue;
+    }
+
+    &-success{
+        background-color: lightseagreen;
+    }
+
+    &-dark{
+        background-color: black;
+    }
 }

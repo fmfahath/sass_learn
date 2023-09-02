@@ -10,7 +10,7 @@ a {
 }
 
 html, body {
-  background-color: #f882af;
+  background-color: #ffa2c6;
   color: black;
 }
 
@@ -79,8 +79,17 @@ html, body {
   background-color: rgb(247, 66, 156);
   padding: 10px 20px;
   border-radius: 5px;
-  border: none;
+  border: 1px solid rgb(230, 230, 230);
   cursor: pointer;
+}
+.btn-primary {
+  background-color: dodgerblue;
+}
+.btn-success {
+  background-color: lightseagreen;
+}
+.btn-dark {
+  background-color: black;
 }
 
 /*# sourceMappingURL=main.css.map */
