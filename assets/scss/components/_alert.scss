@@ -1,5 +1,6 @@
 @use "../abstracts/variables/index" as *;
 
+/*Alert boxes */
 .alert{
     font-family: $font-cmd;
     font-size: 15px;
@@ -27,10 +28,18 @@
          background-color: rgba(255, 217, 147, 0.5);
     }
 
-    
     &-danger{
+        @extend .alert;
         border: 2px solid red;
          background-color: rgba(255, 199, 199, 0.5);
     }
+
+}
+
+    
+.alert-danger{
+    @extend .alert;
+    border: 2px solid red;
+     background-color: rgba(255, 199, 199, 0.5);
 }
 
