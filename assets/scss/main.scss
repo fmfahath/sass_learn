@@ -14,7 +14,9 @@
 //layouts
 @use "./layouts/navigation";
 
+
 //Pages
 @use './pages/home';
 
-
+//components
+@use "./components/buttons";
