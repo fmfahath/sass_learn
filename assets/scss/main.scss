@@ -1,8 +1,11 @@
 //Variables
-@use "./abstracts/variables/_colors.scss";
-@import "./abstracts/variables/_fonts.scss";
+@use "./abstracts/variables/fonts";
+@import "./abstracts/variables/colors";
+// @use "./abstracts/variables/colors";
+// @import "./abstracts/variables/fonts";
 
-/* Button color : #{ $button-color} */
+
+// button-color: #{colors.$button-color}*/
 
 //font
 @import "./base/global";
