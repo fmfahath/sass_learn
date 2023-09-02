@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@400;700;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Raleway:wght@400;500;600;700;800&family=Roboto:wght@400;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Raleway:wght@400;500;600;700;800&family=Roboto:wght@400;700;900&family=Source+Code+Pro:ital,wght@0,200;0,300;1,200&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -10,7 +10,7 @@ a {
 }
 
 html, body {
-  background-color: rgb(17, 143, 165);
+  background-color: pink;
   color: black;
 }
 
@@ -60,6 +60,7 @@ html, body {
   border-radius: 10px;
 }
 .welcome-card__heading {
+  margin-top: 50px;
   font-size: 20px;
   font-family: "Roboto", sans-serif;
 }
@@ -116,6 +117,35 @@ html, body {
   border: none;
   cursor: pointer;
   background-color: black;
+}
+
+.alert {
+  font-family: "Source+Code+Pro", sans-serif;
+  font-size: 15px;
+  padding: 10px 15px;
+  border-radius: 5px;
+  margin: 10px 0;
+}
+.alert__cmdBox {
+  background-color: rgba(3, 3, 3, 0.7);
+  border-radius: 15px;
+  display: inline-block;
+  padding: 5px 15px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.alert__cmdBox__text {
+  color: #fff;
+  font-size: 13px;
+  font-weight: 100;
+}
+.alert-warning {
+  border: 2px solid orange;
+  background-color: rgba(255, 217, 147, 0.5);
+}
+.alert-danger {
+  border: 2px solid red;
+  background-color: rgba(255, 199, 199, 0.5);
 }
 
 /*# sourceMappingURL=main.css.map */

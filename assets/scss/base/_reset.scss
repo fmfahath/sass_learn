@@ -12,6 +12,6 @@ a{
 }
 
 html, body{
-    background-color: func.theme-colors("blue");
+    background-color: func.theme-colors();
     color: black;
 }
