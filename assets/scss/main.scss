@@ -21,3 +21,7 @@
 //components
 @use "./components/buttons";
 @use "./components/alert";
+
+// @error "this is an error message"; //look at the output or main.css file
+// @warn "this is an warning message"; //look at the console
+// @debug "this is an debugging message"; //look at the console
