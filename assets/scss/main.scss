@@ -1,22 +1,20 @@
 //Variables
-@use "./abstracts/variables/fonts";
-@import "./abstracts/variables/colors";
+// @use "./abstracts/variables/fonts";
+// @use "./abstracts/variables/colors";
 // @use "./abstracts/variables/colors";
 // @import "./abstracts/variables/fonts";
 
 
-// button-color: #{colors.$button-color}*/
-
 //font
-@import "./base/global";
+@use "./base/global";
 
 //reset
-@import "./base/reset";
+@use "./base/reset";
 
 //layouts
-@import "./layouts/navigation.scss";
+@use "./layouts/navigation";
 
 //Pages
-@import './pages/home';
+@use './pages/home';
 
 

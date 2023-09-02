@@ -1,4 +1,5 @@
 /* Welcome Card------------------------------------------------------------------*/
+@use "../abstracts/variables/index" as *;
 
 .welcome-card{
     background-color: #fff;
@@ -8,13 +9,13 @@
 
     &__heading{
         font-size: 20px;
-        font-family: fonts.$font-roboto;
+        font-family: $font-roboto;
     }
 
     &__desc{
         color: rgb(83, 82, 82);
         margin-top: 10px;
-        font-family: fonts.$font-raleway;
+        font-family: $font-raleway;
     }
 
     &__desc span{

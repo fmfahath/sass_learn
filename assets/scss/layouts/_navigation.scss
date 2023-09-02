@@ -1,3 +1,5 @@
+@use "../abstracts/variables/index";
+
 /* Navbar----------------------------------------------------------------------- */
 
 .header{
@@ -13,9 +15,9 @@
     }
 
     &__brand h2 a{
-        color: $button-color;
+        color: index.$button-color;
         font-size: 40px;
-        font-family: fonts.$font-raleway;
+        font-family: index.$font-raleway;
         letter-spacing: 3px;
         font-weight: 500;
     }
@@ -32,13 +34,13 @@
         text-decoration: none;
         margin-right: 30px;
         font-size: 20px;
-        font-family: fonts.$font-roboto;
+        font-family: index.$font-roboto;
         padding: 4px 8px;
 
         
         &.active{
             color: #fff;
-            background-color: $button-color;
+            background-color: index.$button-color;
             // padding: 5px;
             border-radius: 7px;
         }
