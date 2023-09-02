@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@400;700;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Raleway:wght@400;500;600;700;800&family=Roboto:wght@400;700;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+html, body {
+  background-color: #f882af;
+  color: black;
+}
+
+/* Navbar----------------------------------------------------------------------- */
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin: 40px;
+}
+.header__brand {
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 10px;
+}
+.header__brand h2 a {
+  color: rgb(247, 66, 156);
+  font-size: 40px;
+  font-family: "Raleway", sans-serif;
+  letter-spacing: 3px;
+  font-weight: 500;
+}
+.header__menus {
+  display: flex;
+  list-style-type: none;
+}
+.header__link {
+  text-decoration: none;
+  margin-right: 30px;
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  padding: 4px 8px;
+}
+.header__link.active {
+  color: #fff;
+  background-color: rgb(247, 66, 156);
+  border-radius: 7px;
+}
+.header__link.active a {
+  color: #fff;
+}
+
+/* Welcome Card------------------------------------------------------------------*/
+.welcome-card {
+  background-color: #fff;
+  padding: 30px;
+  margin: 40px;
+  border-radius: 10px;
+}
+.welcome-card__heading {
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+}
+.welcome-card__desc {
+  color: rgb(83, 82, 82);
+  margin-top: 10px;
+  font-family: "Raleway", sans-serif;
+}
+.welcome-card__desc span {
+  color: rgb(255, 32, 144);
+  font-weight: 700;
+}
+.welcome-card__btn {
+  color: white;
+  margin-top: 20px;
+  background-color: rgb(247, 66, 156);
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+}/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,17 @@
+//Variables
+@import "./abstracts/variables/_colors.scss";
+@import "./abstracts/variables/_fonts.scss";
+
+//font
+@import "./base/global";
+
+//reset
+@import "./base/reset";
+
+//layouts
+@import "./layouts/navigation.scss";
+
+//Pages
+@import './pages/home';
+
+
