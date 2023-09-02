@@ -1,0 +1,5 @@
+@use "../abstracts/variables/index" as *;
+
+@function theme-colors($var : "primary"){
+    @return map-get($theme-colors, $var );
+}
