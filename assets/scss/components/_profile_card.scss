@@ -1,0 +1,36 @@
+@use "sass:math";
+
+.profile-card{
+    background-color: #fff;
+    padding: 30px;
+    margin: 40px;
+    border-radius: 10px;
+    display: flex;
+    gap: 20px;
+
+    &__pic img{
+        width: 100px;
+        height: 100px;
+    }
+}
+
+
+@mixin profile-card($size, $circle: false){
+    width: $size;
+    height: $size;
+
+    @if $circle{
+        // border-radius: $size / 2
+        border-radius: math.div($size,2);
+    }
+
+}
+
+
+.squre-av{
+    @include profile-card(100px,  $circle:false);
+}
+
+.cicrcle-av{
+    @include profile-card(100px,  $circle:true);
+}

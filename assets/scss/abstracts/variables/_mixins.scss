@@ -1,5 +1,7 @@
 @use "../variables/index" as *;
+@use "sass:math";
 
+//buttons
 @mixin btn($color:#fff){ //optional parameter
     color: $color;
     margin-top: 20px;
