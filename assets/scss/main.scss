@@ -16,12 +16,12 @@
 
 
 //Pages
-@use './pages/home';
+@use './pages/home'; 
 
 //components
 @use "./components/buttons";
 @use "./components/alert";
-
+@use "./components/smartNotiBar";
 
 // @error "this is an error message"; //look at the output or main.css file
 // @warn "this is an warning message"; //look at the console
@@ -34,3 +34,4 @@ $second_num: 2;
 
 @debug "result: #{$first_num == $second_num}"; //see the result in CLI
 @debug "result: #{$first_num != $second_num}";
+
