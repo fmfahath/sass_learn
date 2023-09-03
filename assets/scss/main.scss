@@ -22,6 +22,15 @@
 @use "./components/buttons";
 @use "./components/alert";
 
+
 // @error "this is an error message"; //look at the output or main.css file
 // @warn "this is an warning message"; //look at the console
 // @debug "this is an debugging message"; //look at the console
+
+
+//operators
+$first_num: 1;
+$second_num: 2;
+
+@debug "result: #{$first_num == $second_num}"; //see the result in CLI
+@debug "result: #{$first_num != $second_num}";
